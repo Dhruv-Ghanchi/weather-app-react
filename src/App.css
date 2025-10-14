@@ -36,3 +36,59 @@
     transform: rotate(360deg);
   }
 }
+
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1; /* This pushes the footer to the bottom */
+}
+
+.App {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to bottom, #e0f7fa, #80deea); /* light blue gradient for weather theme */
+}
+
+.content {
+  flex: 1;
+  padding-bottom: 20px; /* space for footer */
+}
+body.clear-sky {
+    background: linear-gradient(to bottom, #87CEEB, #ADD8E6); /* Sky blue gradient */
+    transition: background 0.8s ease;
+}
+
+body.overcast {
+    background: linear-gradient(to bottom, #A9A9A9, #D3D3D3); /* Gray gradient */
+    transition: background 0.8s ease;
+}
+
+body.sunset {
+    background: linear-gradient(to bottom, #FFD700, #FF4500); /* Orange/red gradient */
+    transition: background 0.8s ease;
+}
+
+body.rainy {
+    background: linear-gradient(to bottom, #4e54c8, #8f94fb); /* Purple-blue rainy */
+    transition: background 0.8s ease;
+}
+
+body.snowy {
+    background: linear-gradient(to bottom, #e0eafc, #cfdef3); /* Light icy blue */
+    transition: background 0.8s ease;
+}
+
+body.foggy {
+    background: linear-gradient(to bottom, #d7d2cc, #304352); /* Fog/mist */
+    transition: background 0.8s ease;
+}

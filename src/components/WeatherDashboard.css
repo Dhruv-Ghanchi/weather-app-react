@@ -1,0 +1,22 @@
+.weather-icon {
+  animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-10px); }
+}
+
+
+.card:hover {
+  transform: translateY(-8px);
+  transition: all 0.3s ease;
+}
+
+.weather-icon {
+  transition: transform 0.5s ease;
+}
+
+.card:hover .weather-icon {
+  transform: scale(1.2);
+}
