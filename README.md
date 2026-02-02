@@ -39,5 +39,6 @@ The project focuses on **React fundamentals**, **API handling**, and **component
 
 ## 👤 Author
 
-Dhruv Ghanchi  
-GitHub: https://github.com/Dhruv-Ghanchi
+Dhruv Chandrakant Ghanchi  
+GitHub: https://github.com/Dhruv-Ghanchi  
+LinkedIn: https://www.linkedin.com/in/dhruv-ghanchi-9b0180371/
